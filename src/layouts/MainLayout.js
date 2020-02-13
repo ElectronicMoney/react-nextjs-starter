@@ -11,6 +11,7 @@ import Container from '@material-ui/core/Container';
 import Fab from '@material-ui/core/Fab';
 import KeyboardArrowUpIcon from '@material-ui/icons/KeyboardArrowUp';
 import Zoom from '@material-ui/core/Zoom';
+import Footer from '../layouts/Footer';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -75,6 +76,8 @@ export default function BackToTop(props) {
           <KeyboardArrowUpIcon />
         </Fab>
       </ScrollTop>
+      {/* The Footer */}
+      <Footer />
     </React.Fragment>
   );
 }
