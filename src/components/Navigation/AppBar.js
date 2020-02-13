@@ -30,14 +30,16 @@ export default function ButtonAppBar() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
-            Cafafans
-            <Button color="inherit">Home</Button>
-            <Button color="inherit">About</Button>
-            <Button color="inherit">Contact Us</Button>
-            <Button color="inherit">Faq</Button>
-            <Button color="inherit">Investments</Button>
-            <Button color="inherit">Blog</Button>
+            <Button color="inherit">Cafafans</Button>
           </Typography>
+
+          <Button color="inherit">Home</Button>
+          <Button color="inherit">About</Button>
+          <Button color="inherit">Contact Us</Button>
+          <Button color="inherit">Faq</Button>
+          <Button color="inherit">Investments</Button>
+          <Button color="inherit">Blog</Button>
+
           <Button color="inherit">Login</Button>
           <Button color="inherit">Register</Button>
         </Toolbar>
