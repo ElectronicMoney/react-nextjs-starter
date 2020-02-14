@@ -66,8 +66,10 @@ export default function BackToTop(props) {
       {/* Impprt AppBar */}
       <AppBar />
       <Toolbar id="back-to-top-anchor" />
-      <Container>
-        <Box my={2}>
+    {/* The Slider */}
+    <div>The Slider goes here...</div>
+      <Container disableGutters={true}>
+        <Box my={2}>  
             {props.children}
         </Box>
       </Container>
@@ -77,7 +79,8 @@ export default function BackToTop(props) {
         </Fab>
       </ScrollTop>
       {/* The Footer */}
-      <Footer />
+      {/* <Footer /> */}
+      <div>The Footer Goes here...</div>
     </React.Fragment>
   );
 }

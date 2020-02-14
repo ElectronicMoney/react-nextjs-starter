@@ -25,7 +25,7 @@ export default function SimpleContainer() {
         <React.Fragment>
             <CssBaseline />
             <Container maxWidth="false">
-                <Typography component="div" style={{ backgroundColor: '#cfe8fc'}} >
+                <Typography component="div" style={{ backgroundColor: '#1a237e'}} >
 
                     <div className={classes.root}>
                         <Grid container spacing={3}>
